@@ -1,0 +1,102 @@
+﻿@page "/choreMonth"
+
+@using ChoreWorkerLib.Services
+@using ChoreWorkerLib.Models
+@inject ChoreService choreService
+@inject WorkerService workerService
+
+<h1>Chores by Worker and Month</h1>
+
+@if (chores == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <select @onchange="SetSelectedWorker">
+        @foreach (var worker in workers)
+        {
+            <option value="@worker.Id">@worker.Name</option>
+        }
+    </select>
+    <select @onchange="SetSelectedMonth">
+        @foreach (var cm in choreMonths)
+        {
+            <option value="@cm.Date.ToShortDateString()">@cm.Date.Month - @cm.Date.Year</option>
+        }
+    </select>
+    <table class="table">
+        <thead>
+            <tr>
+                <th><span class="sort-link" @onclick="@(() => Sort("Date"))">Date</span></th>
+                <th><span class="sort-link" @onclick="@(() => Sort("Name"))">Name</span></th>
+                <th><span class="sort-link" @onclick="@(() => Sort("Description"))">Description</span></th>
+                <th>State</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Chore in chores)
+            {
+                <tr class="tr-one">
+                    <td width="20%">@Chore.Date.ToShortDateString()</td>
+                    <td width="20%">@Chore.Name</td>
+                    <td width="50%">@Chore.Description</td>
+                    <td width="10%" align="center"><button class="btn btn-@Chore.State" @onclick="Chore.CycleState">@Chore.State</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Chore[] chores;
+    private Worker[] workers;
+    private string selectedWorker;
+    private DateTime[] choreMonths;
+    private string selectedMonth;
+
+    private async void SetSelectedWorker(ChangeEventArgs e)
+    {
+        selectedWorker = e.Value.ToString();
+        choreGetter();
+    }
+    private async void Sort(string field)
+    {
+        choreService.SortChores(field);
+        choreGetter();
+    }
+    private async void SetSelectedMonth(ChangeEventArgs e)
+    {
+        selectedMonth = e.Value.ToString();
+        choreGetter();
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        // get the chore months
+        choreMonths = choreService.GetMonths();
+        workers = await workerService.GetWorkersAsync();
+        DateTime today = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
+
+        if(workers != null)
+            selectedWorker = workers[0].Id;
+
+        if(selectedMonth == null)
+        {
+            if(choreMonths.Contains(today.AddDays(1-today.Day)))
+            {
+                selectedMonth = today.AddDays(1 - today.Day).ToShortDateString();
+            }
+            else
+            {
+                selectedMonth = choreMonths.First().ToShortDateString();
+            }
+        }
+
+        choreGetter();
+    }
+    private async void choreGetter()
+    {
+        chores = await choreService.GetChoresForMonth(selectedWorker, DateTime.Parse(selectedMonth));
+    }
+
+}

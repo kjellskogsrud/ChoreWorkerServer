@@ -3,12 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChoreWorkerLib", "ChoreWorkerLib\ChoreWorkerLib.csproj", "{736AF8B8-FAB6-475A-81E1-7FA611BBE458}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChoreWorkerLib", "ChoreWorkerLib\ChoreWorkerLib.csproj", "{736AF8B8-FAB6-475A-81E1-7FA611BBE458}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BC989544-C60F-4691-8797-9F7347297DFE}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorChores", "BlazorChores\BlazorChores.csproj", "{D801FC0E-43A7-4B51-971B-783336C7C201}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +22,10 @@ Global
 		{736AF8B8-FAB6-475A-81E1-7FA611BBE458}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{736AF8B8-FAB6-475A-81E1-7FA611BBE458}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{736AF8B8-FAB6-475A-81E1-7FA611BBE458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D801FC0E-43A7-4B51-971B-783336C7C201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D801FC0E-43A7-4B51-971B-783336C7C201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D801FC0E-43A7-4B51-971B-783336C7C201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D801FC0E-43A7-4B51-971B-783336C7C201}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

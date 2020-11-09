@@ -7,34 +7,21 @@ namespace ChoreWorkerLib.Models
     /// <summary>
     /// Represents a real world job to be done
     /// </summary>
-    
+
     public class Chore
     {
         #region Public members
-        public string Id { get; private set; } = "";
-        public string Name { get; private set; } = "";
-        public string Description { get; private set; } = "";
-        /// <summary>
-        /// Represents when this chore is due.
-        /// </summary>
-        public DateTime Date { get; private set; }
-        /// <summary>
-        /// When the chore was last modified.
-        /// </summary>
-        public DateTime LastModified { get; private set; }
-        /// <summary>
-        /// When the chore was first marked as completed(or paused).
-        /// </summary>
-        public DateTime? Completed { get; private set; } = null;
-        /// <summary>
-        /// The person set to do the chore.
-        /// </summary>
-        public Worker? Worker { get; private set; }
-        /// <summary>
-        /// State of this chore.
-        /// </summary>
-        public ChoreState State { get; private set; } = ChoreState.BLANK;
-
+        public string Id { get;  set; } = "";
+        public string Name { get; set; } = "";
+        public string Description { get; set; } = "";
+        public string Comment { get; set; } = "";
+        public DateTime Date { get; set; }
+        public DateTime LastModified { get; set; }
+        public DateTime? Completed { get; set; } = null;
+        public string? Worker { get;  set; }
+        public ChoreState State { get; set; } = ChoreState.BLANK;
+        public decimal Value { get; set; }
+        public bool Locked { get; set; } = false;
         #endregion
         #region Enumerations
         public enum ChoreState
@@ -65,19 +52,43 @@ namespace ChoreWorkerLib.Models
         }
         #endregion
         #region Constructors
+        public Chore()
+        {
+            // Does nothing
+        }
         public Chore(string id, string name, string description, DateTime date) =>
             (this.Id, this.Name, this.Description, this.Date, this.LastModified) = (id, name, description, date, DateTime.Now);
         #endregion
         #region Public Methods
         public bool SetWorker(Worker worker)
         {
-            Worker = worker;
+            return SetWorkerById(worker.Id);
+            
+        }
+        public bool SetWorkerById(string id)
+        {
+            if (this.Locked)
+                return false;
+            Worker = id;
             SetLastModifiedNow();
             return true;
         }
+        public void Lock()
+        {
+            this.Locked = true;
+            SetLastModifiedNow();
+        }
+        public void Unlock()
+        {
+            this.Locked = false;
+            SetLastModifiedNow();
+        }
         public bool SetState(ChoreState state)
         {
-            if(state == ChoreState.DONE || state == ChoreState.PAUSED)
+            if (this.Locked)
+                return false;
+
+            if (state == ChoreState.DONE || state == ChoreState.PAUSED)
             {
                 if(this.Completed == null)
                 {
@@ -86,7 +97,42 @@ namespace ChoreWorkerLib.Models
             }
             this.State = state;
             SetLastModifiedNow();
+            if(cbChoreChanged != null)
+                cbChoreChanged(this);
+
             return true;
+        }
+        public void CycleState()
+        {
+            switch (this.State)
+            {
+                case ChoreState.BLANK:
+                    SetState(ChoreState.DONE);
+                    break;
+                case ChoreState.DONE:
+                    SetState(ChoreState.PAUSED);
+                    break;
+                case ChoreState.PAUSED:
+                    SetState(ChoreState.NOTDONE);
+                    break;
+                case ChoreState.NOTDONE:
+                    SetState(ChoreState.BLANK);
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        Action<Chore> cbChoreChanged;
+
+        public void SubscribeForChange(Action<Chore> callback)
+        {
+            cbChoreChanged += callback;
+        }
+
+        public void UnsubscribeForChange(Action<Chore> callback)
+        {
+            cbChoreChanged -= callback;
         }
         #endregion
         #region Private Methods

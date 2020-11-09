@@ -1,0 +1,2460 @@
+<?xml version="1.0"?>
+<ArrayOfChore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Chore>
+    <Id>4228582a-591d-4834-a3d2-f2ce9fea9c22</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-01T00:00:00</Date>
+    <LastModified>2020-11-08T14:41:18.9503736+01:00</LastModified>
+    <Completed>2020-11-08T14:41:05.2254948+01:00</Completed>
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>eeee8ccf-55ba-4a8a-b701-a42d7b24d7fd</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-01T00:00:00</Date>
+    <LastModified>2020-11-08T12:03:20.4304574+01:00</LastModified>
+    <Completed>2020-11-04T21:30:44.4286027+01:00</Completed>
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>79086b0d-82ec-40ac-be55-cb0e0d8458e9</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-01T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689344+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>ec16a3e6-2780-40cf-a6ee-3537a8ac98c8</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-02T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689503+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>cbc0b9b7-ce3d-44ea-8a81-f55a3a0afffd</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-02T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689489+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>101f29c9-f0cf-4005-8914-4dd8ca794d4c</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-02T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689516+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>903544f7-ea38-4435-a35b-7ae441beb398</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-03T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689551+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>3c50eb26-5fb9-4b9e-995e-d59bb97236e2</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-03T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689538+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>74232e8d-1870-4d05-a04b-98a3f021daa9</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-03T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689563+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>65702f4c-1625-4c1a-8754-6c2476af5598</Id>
+    <Name>Vaske Badene</Name>
+    <Description>En gang i uken ved helgestart(Tors-Fre)</Description>
+    <Comment />
+    <Date>2020-09-04T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689582+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>19ed1281-e3a9-4e8b-8f57-65370ce9288f</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-04T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689621+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>23064ff3-8dd2-43af-9b16-90215262e488</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-04T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689608+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>eac47f2f-3deb-4f07-add3-21adea00c354</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-04T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689633+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>a1c5f8d5-9da3-412c-b349-67e61b8089f7</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-05T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689659+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>a5c3d0fd-5db4-479b-9c53-7c8b9486461c</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-05T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689647+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>a2f0315e-d63b-4f31-b57b-b0008508b1bf</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-05T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689671+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>52042fe9-e53b-4412-a273-c7d299110250</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-06T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689697+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>7cc04ced-42a4-4806-bc8e-d0be8c750a51</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-06T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689685+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>0e7e703b-2369-4e20-b8af-f1cb2d2ac9dc</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-06T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689714+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>9972f7c8-125e-4328-9fb0-b7dd29887634</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-07T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689827+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>315fda1c-5023-46ce-b8fa-fd3146e1b1ad</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-07T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689814+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>7a80e60b-b696-4893-a27d-4a9bcd2e1303</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-07T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689839+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>6afab5ba-b072-4dcb-a357-e0cab509eb74</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-08T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689865+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>2f12f494-79d6-4373-94c6-4ea2b7246886</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-08T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689852+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>f52fd792-30db-4564-85ca-96a6dfd94698</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-08T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689877+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>c768c193-6175-4cc4-a34c-e63ac1898749</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-09T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689909+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>d1f75785-13f2-4e53-b2be-75370a558d86</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-09T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.768989+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>8b3711ed-902c-4fd5-bdf2-a00748de7930</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-09T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689923+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>28f045a4-69d3-4bf6-af7d-6ac52fa7a6b5</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-10T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689948+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>b1ce33e6-6185-4fac-a58c-7bc9acf5c355</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-10T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689936+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>531ea1f5-4be7-4ad2-be96-449bc69952fa</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-10T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.768996+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>af2a9fb8-ff1d-4309-a519-64a87498536d</Id>
+    <Name>Vaske Badene</Name>
+    <Description>En gang i uken ved helgestart(Tors-Fre)</Description>
+    <Comment />
+    <Date>2020-09-11T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689974+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>68937f5f-d65c-4660-bf1d-a640d8356704</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-11T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689999+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>a0e5d0a0-0d5c-4b8f-9587-583ee9142563</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-11T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7689987+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>867f72fb-b910-4a1e-b43d-24443ea60a1e</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-11T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690015+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>83bf610b-fac6-4724-804c-5c32cf54b806</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-12T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690048+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>8b10769c-4bce-4fd1-917f-124aefc2c8e1</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-12T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690035+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>9a1e3048-adb9-4a32-9cf5-e72e6100aa4c</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-12T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.769006+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>8c014458-4210-48d7-a76b-065ffcd8ec98</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-13T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690086+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>f2042b3a-a1bf-4472-90e0-05f143690234</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-13T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690073+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>196f3038-46aa-45dd-9ff3-f3983b6f2d0b</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-13T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690098+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>d0048921-4495-40aa-814c-04736d1352d9</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-14T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690127+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>bf8828c6-9793-4c4f-9d31-88a9149a583f</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-14T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690111+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>7715b4d4-f08d-4028-9ff0-f6d18e69975e</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-14T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.769014+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>373defc8-e710-4eb3-92e3-aa92b4f183e6</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-15T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690165+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>fb81bf01-0b43-4f32-8f1a-c4959b9c8cac</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-15T00:00:00</Date>
+    <LastModified>2020-11-06T21:16:24.9669032+01:00</LastModified>
+    <Completed>2020-11-06T21:15:43.6013255+01:00</Completed>
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>c0fadfe0-d077-4347-a0cd-024bf804cb28</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-15T00:00:00</Date>
+    <LastModified>2020-11-06T21:16:23.5607564+01:00</LastModified>
+    <Completed>2020-11-06T21:15:42.9863787+01:00</Completed>
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>5b754a6a-85c2-4d47-a063-a4a18ad219a3</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-16T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690259+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>d93c59fb-c89a-4596-ae36-632f8e567d92</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-16T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690246+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>796396fe-e0ed-4c44-adb1-f8daba150cdf</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-16T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690272+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>aea64957-b0cd-4bd7-9406-aee232a5fbbc</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-17T00:00:00</Date>
+    <LastModified>2020-11-06T21:25:07.0023552+01:00</LastModified>
+    <Completed>2020-11-06T21:15:41.8359772+01:00</Completed>
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>a160f9c8-247b-4413-9fd1-9a219a38dbd9</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-17T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690292+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>a7025f1a-b359-4dc1-8606-c82856a976d7</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-17T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690317+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>fbea50cf-e76f-457b-bd70-284a973e3e66</Id>
+    <Name>Vaske Badene</Name>
+    <Description>En gang i uken ved helgestart(Tors-Fre)</Description>
+    <Comment />
+    <Date>2020-09-18T00:00:00</Date>
+    <LastModified>2020-11-06T21:20:15.3686762+01:00</LastModified>
+    <Completed>2020-11-06T21:20:02.4255299+01:00</Completed>
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>8e1fca0b-1db2-4cf9-b425-232b4e974878</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-18T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690355+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>7d06d888-00d9-4733-939b-19a0b176f4e6</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-18T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690343+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>3c0a42a3-b26c-4ba4-a811-31dc9785f283</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-18T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690367+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>15ba0366-f5eb-424c-ab7f-d4d6817505c2</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-19T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690396+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>a763d9c7-9d29-4d5b-948c-81347231a231</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-19T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.769038+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>5e9372e1-0390-447c-94b4-fc195f0590e9</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-19T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690409+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>80b637dd-ec8b-455d-b7fb-b123ef8cc8c2</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-20T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690434+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>46c00a16-007f-4553-bdb5-5f93edb1b5bb</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-20T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690422+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>c4fdc7c0-fa45-45b2-a500-da9419a74dbd</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-20T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690447+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>460c0b55-2774-475a-b6b1-9d5c41e5d255</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-21T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690473+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>6d934809-d4d8-4781-9beb-0e717a743aa4</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-21T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.769046+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>ce5486ea-515d-43df-a985-4d0d35107224</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-21T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690485+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>0df20cb6-ce47-4ed7-8183-b0227ada2c48</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-22T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690522+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>ffb73221-e363-4ff3-9aac-cfe66764c8ff</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-22T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690508+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>e91ca5cd-0746-4553-b540-4a53d9c23630</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-22T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690534+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>ffc0efc6-1545-451f-bead-c39a0c1b3c24</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-23T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690561+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>4bf0454c-45f1-41c2-b546-2bda8b69dc2d</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-23T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690547+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>e86e9d95-e49c-43f4-a8c2-fb2b450ae9ed</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-23T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690573+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>1efde994-aca7-4c5b-a4ea-9e00dd96b92c</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-24T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690643+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>6972b7a5-f110-4f61-887b-1a33c188b670</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-24T00:00:00</Date>
+    <LastModified>2020-11-08T12:23:43.0949405+01:00</LastModified>
+    <Completed>2020-11-08T12:23:43.0948113+01:00</Completed>
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>DONE</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>a52283f3-38c7-457d-b4f7-9c076487c383</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-24T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690661+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>84a037ed-1625-4b22-a346-ade00a7d0e85</Id>
+    <Name>Vaske Badene</Name>
+    <Description>En gang i uken ved helgestart(Tors-Fre)</Description>
+    <Comment />
+    <Date>2020-09-25T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690675+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>2ad445f5-6b6d-4e6c-ae55-536a2238d34a</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-25T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.76907+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>9d218921-90a4-4392-9fd1-ed85af8f914b</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-25T00:00:00</Date>
+    <LastModified>2020-11-08T12:23:43.6126419+01:00</LastModified>
+    <Completed>2020-11-08T11:30:31.3061998+01:00</Completed>
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>DONE</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>6085fc48-72e6-416e-a8a4-b7866de6b343</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-25T00:00:00</Date>
+    <LastModified>2020-11-08T12:23:44.3827186+01:00</LastModified>
+    <Completed>2020-11-08T11:30:35.2759971+01:00</Completed>
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>DONE</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>ad0a84fc-676e-42b6-8ffc-a2c877614938</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-26T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690738+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>fe6eb96d-9735-4242-bedb-bc9217794e0c</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-26T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690726+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>6df4b232-726c-4de6-8707-1c457247462c</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-26T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690751+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>4ff992dc-13a2-4c58-8b6e-c7630d7b2320</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-27T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.769078+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>5092da21-5e1d-426d-8013-5df3529e1442</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-27T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690767+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>348cd353-8342-4043-a5c7-d56491bd05f5</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-27T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690792+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>bf292c56-cd07-4bce-96d2-b8a9b257b4b4</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-28T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690818+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>811a2fc2-f18f-4ebc-80d0-018a4f9c757f</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-28T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690806+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>c1f6eb64-aebb-472d-b462-9ebd23ba763d</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-28T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.769083+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>9cf3282e-9aaa-46a2-bea7-00af2eadd8dc</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-29T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690856+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>42510c57-bb6e-4e39-b0f4-8dd6b9f58ee4</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-29T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690844+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>6db3afa9-266c-43d4-bf0f-6476a747b85a</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-29T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690872+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>ee0637a2-51bc-4bf1-99a8-8fddb7065ae0</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-09-30T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690898+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>baa7bff3-cd29-41e6-92df-737c778c1429</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-09-30T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.7690886+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>a4813115-e724-4a02-8e99-347d47cab3f5</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-09-30T00:00:00</Date>
+    <LastModified>2020-11-04T21:30:42.769091+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>d1a6abfe-abcf-4263-bcda-d945967440f4</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-10-01T00:00:00</Date>
+    <LastModified>2020-11-08T18:58:04.1829971+01:00</LastModified>
+    <Completed>2020-11-08T13:34:09.2091973+01:00</Completed>
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>0</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>d0ff5d95-447e-4069-8b62-9724628d0490</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-01T00:00:00</Date>
+    <LastModified>2020-11-08T18:53:48.6778932+01:00</LastModified>
+    <Completed>2020-11-08T18:53:47.8628248+01:00</Completed>
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>8cc22a86-df81-4dcc-b9a5-542c79591262</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-01T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1275797+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>fb11f298-c603-4640-868c-8d51192636b4</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-01T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:24.3515439+01:00</LastModified>
+    <Completed>2020-11-08T18:52:23.6060453+01:00</Completed>
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>cbadbdea-1640-43f1-8909-8fbdb5ad141e</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-02T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0091924+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>0ade45aa-3584-434e-9ac3-b1a57eb51b4b</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-02T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1278062+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>feae469e-91a8-462e-8230-a5006bc13c0b</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-02T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5731471+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>9b3cb336-b3de-4766-bd5e-0d3e7849fc30</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-03T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0095246+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>9a9d40c8-5bde-4fa9-b4e5-7294369cf6b2</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-03T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1289502+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>9d4f9e0e-88a3-4032-af48-5934713b750d</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-03T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5734269+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>517a9676-1058-4b21-8d55-2db7682478f4</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-04T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0096254+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>ac825e9d-391f-4589-8b51-a0b0130c0945</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-04T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1293754+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>f3d52ae0-985b-42d9-b473-547522be5e59</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-04T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5734878+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>323dc534-aa16-46bb-95cf-8780ecf38369</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-05T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0097193+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>596215cb-384d-411c-8890-f465cfdbeb48</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-05T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1297509+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>ba9acee7-289e-4bb0-beb8-aa43a78f7d05</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-05T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5735356+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>538cf59f-b980-4bbd-ac0d-8a294d43ec92</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-06T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0098225+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>6f84e4fb-ca5b-4421-b232-31383f028267</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-06T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1301466+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>7b7ea620-06ae-4d0f-b100-4c029d3d0efd</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-06T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5735774+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>cadcc3d4-23f8-4c4a-a6fa-36dd19d5cc71</Id>
+    <Name>Vaske Badene</Name>
+    <Description>En gang i uken ved helgestart(Tors-Fre)</Description>
+    <Comment />
+    <Date>2020-11-06T00:00:00</Date>
+    <LastModified>2020-11-08T18:53:26.6607674+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>8d3cce37-8324-4a65-a3d8-1685556c7cd0</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-07T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0098964+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>d1156c7d-c6be-45c9-96c4-35dc40370765</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-07T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1306058+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>28cd6743-3e9b-49b0-ba9c-71677c77dcb9</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-07T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5736192+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>c0d2388a-8fd1-4fe7-baf3-c28c948f7912</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-08T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.009984+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>4e8bdbb4-eab3-442c-ad98-c356738ef25a</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-08T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1310195+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>00ea8701-3b07-4458-acda-ad7dcd9f63fd</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-08T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5736762+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>42f3e746-9207-453b-9ca2-754b4d0c92be</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-09T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0100558+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>164e493f-9f2f-4110-91c8-99651aac2c02</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-09T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1313806+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>485c112d-307b-45d9-aa07-1d69154e528e</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-09T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5737204+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>836f0a59-4fd7-42ea-9202-4063b8437e5f</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-10T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0101548+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>4071bd45-e4ae-4b30-8d54-5b3e72129271</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-10T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.13174+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>ebcb9ef3-d53e-4c03-8f12-d33e33925db4</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-10T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5737614+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>c6302cda-b653-4bdd-bce0-513e68a7652e</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-11T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.010242+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>767b1bb4-1947-4533-a3d1-0d0b6004152a</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-11T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1320976+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>ee972ea0-7bcd-4cc5-b9a1-dac6096b2380</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-11T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5738031+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>330a1fb1-dc97-4723-800c-209583ede5af</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-12T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0103571+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>80b2e659-6012-40e5-a0f5-a576d89942d2</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-12T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1324803+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>6a613cb7-5bad-4078-8a5b-bd3f090b3af1</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-12T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.57388+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>3551525a-e753-490c-9a97-4f433f05c8eb</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-13T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0105382+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>912ca4a2-45ae-490f-b21a-bbbae44e6c92</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-13T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1328226+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>8026f696-ef93-47d8-ad21-760276da9766</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-13T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5739253+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>20e33d71-b412-403f-92d1-a698374050ee</Id>
+    <Name>Vaske Badene</Name>
+    <Description>En gang i uken ved helgestart(Tors-Fre)</Description>
+    <Comment />
+    <Date>2020-11-13T00:00:00</Date>
+    <LastModified>2020-11-08T18:53:33.8451865+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>6c472383-0cf1-4d3a-85a4-b0288bd0bf86</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-14T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.010622+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>5d795b09-3db4-411e-9c23-4869aafb7fad</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-14T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1331521+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>69fb2c49-aaab-489f-8cad-d031c4192c85</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-14T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5739692+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>d8a4da80-cb2a-4b8e-80ca-4abba0eb68f4</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-15T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0107025+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>3e7b8fa9-162b-4f6e-a675-d2a8e9d98956</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-15T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.133564+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>cf868a65-3ae8-41e5-bd4d-9fc426a2b65c</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-15T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5740112+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>71b79628-4f4e-4c7a-b2fe-e6ec4d255245</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-16T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0107821+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>cebca62f-5b82-48b9-a26a-5282bf2afa9d</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-16T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1339009+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>1a0a21da-d7f8-4604-8a3d-2ef266aafd6c</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-16T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.574052+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>663d350d-324d-47c8-bdb5-d64ad341ff67</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-17T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0108707+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>d1fefb7f-4363-42e6-9e38-83638fcb423e</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-17T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1342424+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>d4cafec9-3bc3-4339-9e83-0095cabd8a07</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-17T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5741553+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>a263b188-6c2f-4fec-a56a-7cb93f4eb365</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-18T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0109368+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>bacdafb6-8ce4-4a77-976d-e184dc4a3e79</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-18T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1346389+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>45763049-dfd8-40ed-bd18-0472a6fbe2b7</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-18T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5742414+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>35c2aae5-0134-44ae-81e7-b10af533ed42</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-19T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0110003+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>60fd7189-2821-43cc-90ad-b0912ee656fa</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-19T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1349901+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>d12e2fb7-b0bd-46fb-aa15-cf3708bf6bf9</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-19T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5743499+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>71641888-33d1-4f62-9458-11934ccb245a</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-20T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0115772+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>92285746-6843-4338-ba1c-f2348ab00760</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-20T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.135448+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>ff09ff82-3851-4d4b-a055-10d4c0f33a05</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-20T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5750152+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>9f4a387d-291c-4324-9eb6-764933f0a806</Id>
+    <Name>Vaske Badene</Name>
+    <Description>En gang i uken ved helgestart(Tors-Fre)</Description>
+    <Comment />
+    <Date>2020-11-20T00:00:00</Date>
+    <LastModified>2020-11-08T18:53:38.9606884+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>80fc13a2-e0c2-47e1-82d5-3ce984bed71c</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-21T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0120128+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>654ef9dd-8ba2-4c04-87d0-9cdf17fc8664</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-21T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1357784+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>810cfbc4-ebd0-4796-abe8-cd03fa2d7cac</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-21T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.575432+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>57b1f6de-a2b6-45ad-abca-091747aff068</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-22T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0134434+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>ce670192-ba88-48e9-a5dc-5428694e73de</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-22T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1361373+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>75fbd0a9-abe8-41b1-b107-76c215eb5c44</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-22T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5758124+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>0d453580-9703-4905-afc4-72c573f06007</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-23T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0135593+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>c395ef1f-f072-45a7-9341-5e0d3359fe58</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-23T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.136498+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>593c3b18-d036-4dae-b4d5-b644fb9963c6</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-23T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.576196+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>625722d9-b5a3-474e-a274-6bf22a7cc49c</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-24T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0141272+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>0604fc43-37d0-48b1-bdb8-1f2613d26c15</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-24T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1368474+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>5eb5293c-fc9b-43b7-90ff-3baaa0efe066</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-24T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5765579+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>a99d42c5-563e-44f5-aa4c-a19c2a3c751f</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-25T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.014578+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>5acd5bc2-a29b-447e-bc25-f728333c3f4e</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-25T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1372155+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>39a81b7b-16c6-4235-90a4-6a1068d171c5</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-25T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5769264+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>a701c9fc-dd64-4eb3-9a7f-78bc67676be6</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-26T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0150134+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>61b874d4-d820-4807-a564-8dd097e8e9d8</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-26T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1404512+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>a9167d3b-ee05-4540-8c42-62dbcebb4ca0</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-26T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5772847+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>db53fedb-d8ca-48cb-9e28-e576b9278471</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-27T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0156062+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>485d52d4-d726-4fa7-8e75-7d01fc225ae9</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-27T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1409709+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>d6f8a67c-76db-4410-9057-012b21e440cd</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-27T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.577653+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>1cded285-5406-4b5c-bb18-bb217dc68545</Id>
+    <Name>Vaske Badene</Name>
+    <Description>En gang i uken ved helgestart(Tors-Fre)</Description>
+    <Comment />
+    <Date>2020-11-27T00:00:00</Date>
+    <LastModified>2020-11-08T18:53:43.6631964+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>0bde038d-96d2-416c-9d4c-25fb474e026f</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-28T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0160122+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>ab682c63-e914-4e4b-9896-4eb265d9d33b</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-28T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1416777+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>3679462c-0ecb-4fb9-9209-b2ead21d9d1e</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-28T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5780119+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>04cff4c4-f29f-4845-90be-c2c5476f55dc</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-29T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0166419+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>75f751f8-62d5-47f3-934e-e4c275791c4a</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-29T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1418105+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>80f4978c-8b3b-4dac-aab9-b34e229ada65</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-29T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5784899+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>8525962c-fb21-4a8e-a03e-d4770ee308dc</Id>
+    <Name>Tur med Luna</Name>
+    <Description>Hver dag. Den lille runden er nok. Hvis noen andre har eller skal gå(etter avtale), trenger en ikke gå.</Description>
+    <Comment />
+    <Date>2020-11-30T00:00:00</Date>
+    <LastModified>2020-11-08T14:39:44.0170886+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>1a45b7c7-50c3-4c3a-8b30-e0d48dd15808</Id>
+    <Name>Klesvasken</Name>
+    <Description>Sjekke hver dag, sortere klær, vaske når det trengs, henge opp, brette og på plass.</Description>
+    <Comment />
+    <Date>2020-11-30T00:00:00</Date>
+    <LastModified>2020-11-08T14:40:00.1426493+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+  <Chore>
+    <Id>546559db-bb5d-48e0-9464-cd8746c74fdf</Id>
+    <Name>Ut med bossene</Name>
+    <Description>Tømme bossene med ved behov, og vaske bøttene ved behov.</Description>
+    <Comment />
+    <Date>2020-11-30T00:00:00</Date>
+    <LastModified>2020-11-08T18:52:17.5798318+01:00</LastModified>
+    <Completed xsi:nil="true" />
+    <Worker>7b71090e-2415-47c2-bd7b-3a27e86a46ea</Worker>
+    <State>BLANK</State>
+    <Value>21.276595744680851063829787234</Value>
+    <Locked>false</Locked>
+  </Chore>
+</ArrayOfChore>

@@ -5,6 +5,9 @@ using System.Text;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using System.Linq;
+using System.Runtime.Serialization;
+using System.Xml.Serialization;
+using System.IO;
 
 namespace ChoreWorkerLib.Services
 {
@@ -14,14 +17,23 @@ namespace ChoreWorkerLib.Services
         public WorkerService()
         {
             _workers = new List<Worker>();
-            _workers.Add(new Worker()
-            {
-                // TODO: make this read from a file or database
-                // This is just a bootstrap example 
-                Id = "09755ed2-c194-481d-896d-6090063d11a8",
-                Name = "Foo"
-            });
+            DeserializeWorkers();
         }
+        public void SerializeWorkers()
+        {
+            XmlSerializer xmlSerial = new XmlSerializer(typeof(List<Worker>));
+            FileStream workersXML = new FileStream("workers.xml", FileMode.Create);
+            xmlSerial.Serialize(workersXML, _workers);
+            workersXML.Close();
+        }
+        public void DeserializeWorkers()
+        {
+            XmlSerializer xmlSerial = new XmlSerializer(typeof(List<Worker>));
+            FileStream workersXML = new FileStream("workers.xml", FileMode.Open);
+            _workers = (List<Worker>)xmlSerial.Deserialize(workersXML);
+            workersXML.Close();
+        }
+
         public Worker GetWorkerById(string id)
         {
             return GetWorkerByIdAsync(id).Result;
@@ -30,16 +42,17 @@ namespace ChoreWorkerLib.Services
         {
             return Task.FromResult(_workers.Single(w => Equals(w.Id, id)));
         }
-        public Task<IEnumerable<Worker>> GetWorkersAsync()
+        public Task<Worker[]> GetWorkersAsync()
         {
-            return Task.FromResult(_workers.AsEnumerable());
+            return Task.FromResult(_workers.AsEnumerable().ToArray());
         }
+        
     }
 
     public interface IWorkerService
     {
         Worker GetWorkerById(string id);
         Task<Worker> GetWorkerByIdAsync(string id);
-        Task<IEnumerable<Worker>> GetWorkersAsync();
+        Task<Worker[]> GetWorkersAsync();
     }
 }

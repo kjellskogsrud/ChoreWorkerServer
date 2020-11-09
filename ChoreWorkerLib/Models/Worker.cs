@@ -8,5 +8,6 @@ namespace ChoreWorkerLib.Models
     {
         public string Id = "";
         public string Name = "";
+        public decimal MonthlyChoreValue; 
     }
 }
