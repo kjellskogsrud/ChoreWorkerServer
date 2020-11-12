@@ -10,6 +10,7 @@ using System.Globalization;
 using Microsoft.VisualBasic;
 using System.Runtime.InteropServices;
 using System.Reflection.PortableExecutable;
+using Newtonsoft.Json;
 
 namespace ChoreWorkerLib.Services
 {
@@ -24,6 +25,12 @@ namespace ChoreWorkerLib.Services
         {
             _chores = new List<Chore>();
             DeserializeChores();
+
+            foreach (Chore c in _chores)
+            {
+                c.SubscribeForChange(OnChoreChange);
+            }
+
             SortChores("Date");
         }
         
@@ -53,23 +60,19 @@ namespace ChoreWorkerLib.Services
             }
             CurrentSortField = field;
         }
+
         public void SerializeChores()
         {
-            XmlSerializer xmlSerial = new XmlSerializer(typeof(List<Chore>));
-            FileStream ChoresXML = new FileStream("chores.xml", FileMode.Create);
-            xmlSerial.Serialize(ChoresXML, _chores);
-            ChoresXML.Close();
+            StreamWriter choresJson = new StreamWriter("chores.json");
+            choresJson.Write(JsonConvert.SerializeObject(_chores, Formatting.Indented));
+            choresJson.Close();
         }
+
         public void DeserializeChores()
         {
-            XmlSerializer xmlSerial = new XmlSerializer(typeof(List<Chore>));
-            FileStream choresXML = new FileStream("chores.xml", FileMode.Open);
-            _chores = (List<Chore>)xmlSerial.Deserialize(choresXML);
-            choresXML.Close();
-            foreach (Chore c in _chores)
-            {
-                c.SubscribeForChange(OnChoreChange);
-            }
+            StreamReader choresJson = new StreamReader("chores.json");
+            _chores = JsonConvert.DeserializeObject<List<Chore>>(choresJson.ReadToEnd());
+            choresJson.Close();
         }
         public Chore GetChoreById(string id)
         {

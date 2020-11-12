@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Diagnostics.CodeAnalysis;
 
 
@@ -52,10 +53,7 @@ namespace ChoreWorkerLib.Models
         }
         #endregion
         #region Constructors
-        public Chore()
-        {
-            // Does nothing
-        }
+        [JsonConstructor]
         public Chore(string id, string name, string description, DateTime date) =>
             (this.Id, this.Name, this.Description, this.Date, this.LastModified) = (id, name, description, date, DateTime.Now);
         #endregion

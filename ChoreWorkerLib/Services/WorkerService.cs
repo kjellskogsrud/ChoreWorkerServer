@@ -9,6 +9,8 @@ using System.Runtime.Serialization;
 using System.Xml.Serialization;
 using System.IO;
 
+using Newtonsoft.Json;
+
 namespace ChoreWorkerLib.Services
 {
     public class WorkerService : IWorkerService
@@ -19,25 +21,26 @@ namespace ChoreWorkerLib.Services
             _workers = new List<Worker>();
             DeserializeWorkers();
         }
+
         public void SerializeWorkers()
         {
-            XmlSerializer xmlSerial = new XmlSerializer(typeof(List<Worker>));
-            FileStream workersXML = new FileStream("workers.xml", FileMode.Create);
-            xmlSerial.Serialize(workersXML, _workers);
-            workersXML.Close();
+            StreamWriter workersJson = new StreamWriter("workers.json");
+            workersJson.Write(JsonConvert.SerializeObject(_workers, Formatting.Indented));
+            workersJson.Close();
         }
+
         public void DeserializeWorkers()
         {
-            XmlSerializer xmlSerial = new XmlSerializer(typeof(List<Worker>));
-            FileStream workersXML = new FileStream("workers.xml", FileMode.Open);
-            _workers = (List<Worker>)xmlSerial.Deserialize(workersXML);
-            workersXML.Close();
+            StreamReader workerJson = new StreamReader("workers.json");
+            this._workers = JsonConvert.DeserializeObject<List<Worker>>(workerJson.ReadToEnd());
+            workerJson.Close();
         }
 
         public Worker GetWorkerById(string id)
         {
             return GetWorkerByIdAsync(id).Result;
         }
+
         public Task<Worker> GetWorkerByIdAsync(string id)
         {
             return Task.FromResult(_workers.Single(w => Equals(w.Id, id)));
