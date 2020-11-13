@@ -93,8 +93,14 @@ namespace ChoreWorkerLib.Services
         /// </summary>
         public void DeserializeChores()
         {
+            JsonSerializerSettings settings = new JsonSerializerSettings()
+            {
+                NullValueHandling = NullValueHandling.Ignore,
+                MissingMemberHandling = MissingMemberHandling.Ignore,
+            };
+
             StreamReader choresJson = new StreamReader("chores.json");
-            this.chores = JsonConvert.DeserializeObject<List<Chore>>(choresJson.ReadToEnd());
+            this.chores = JsonConvert.DeserializeObject<List<Chore>>(choresJson.ReadToEnd(),settings);
             choresJson.Close();
         }
 

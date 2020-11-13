@@ -21,9 +21,38 @@ namespace ChoreWorkerLib.Models
         /// <param name="name">The name for this chore.</param>
         /// <param name="description">The Description for this chore.</param>
         /// <param name="date">The date for this chore.</param>
-        [JsonConstructor]
         public Chore(string id, string name, string description, DateTime date) =>
             (this.Id, this.Name, this.Description, this.Date, this.LastModified) = (id, name, description, date, DateTime.Now);
+
+        [JsonConstructor]
+        private Chore(
+            string id,
+            string? name,
+            string? description,
+            string? comment,
+            DateTime date,
+            DateTime lastModified,
+            DateTime? completed,
+            string? worker,
+            ChoreState state,
+            decimal? value,
+            bool locked)
+        {
+            this.Id = id;
+            this.Name = name;
+            this.Description = description;
+            this.Comment = comment;
+            this.Date = date;
+            this.LastModified = lastModified;
+            if (completed != null)
+            {
+                this.Completed = completed;
+            }
+
+            this.Worker = worker;
+            this.Value = value;
+            this.Locked = locked;
+        }
 
         /// <summary>
         /// Represent the state of the chore.
