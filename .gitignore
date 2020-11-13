@@ -361,5 +361,10 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
+# Auto Generated XML documentation
+ChoreWorkerLib/Documentation/netcoreapp3.1
+ChoreWorkerLib.xml
+
 BlazorChores/chores.json
 BlazorChores/workers.json
+
