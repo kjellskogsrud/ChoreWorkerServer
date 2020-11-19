@@ -5,7 +5,7 @@
 @inject ChoreService choreService
 @inject WorkerService workerService
 
-<h1>Chores by Worker and Month</h1>
+<h3>Month View</h3>
 
 @if (chores == null)
 {
@@ -22,7 +22,14 @@ else
     <select @onchange="SetSelectedMonth">
         @foreach (var cm in choreMonths)
         {
-            <option value="@cm.Date.ToShortDateString()">@cm.Date.Month - @cm.Date.Year</option>
+            if (cm.Date.ToShortDateString() == selectedMonth)
+            {
+                <option value="@cm.Date.ToShortDateString()" selected>@cm.Date.ToString("Y")</option>
+            }
+            else
+            {
+                <option value="@cm.Date.ToShortDateString()">@cm.Date.ToString("Y")</option>
+            }
         }
     </select>
     <table class="table">
@@ -49,54 +56,66 @@ else
 }
 
 @code {
-    private Chore[] chores;
-    private Worker[] workers;
-    private string selectedWorker;
-    private DateTime[] choreMonths;
-    private string selectedMonth;
+    private Chore[]? chores;
+    private Worker[]? workers;
+    private string? selectedWorker;
+    private DateTime[]? choreMonths;
+    private string? selectedMonth;
 
-    private async void SetSelectedWorker(ChangeEventArgs e)
+
+    private void SetSelectedWorker(ChangeEventArgs e)
     {
         selectedWorker = e.Value.ToString();
-        choreGetter();
+        UpdateChores();
     }
-    private async void Sort(string field)
+    private void Sort(string field)
     {
         choreService.SortChores(field);
-        choreGetter();
+        UpdateChores();
     }
-    private async void SetSelectedMonth(ChangeEventArgs e)
+    private void SetSelectedMonth(ChangeEventArgs e)
     {
         selectedMonth = e.Value.ToString();
-        choreGetter();
+        UpdateChores();
     }
     protected override async Task OnInitializedAsync()
     {
-        // get the chore months
-        choreMonths = choreService.GetMonths();
+        // Get the chore months
+        choreMonths = await choreService.GetMonths();
         workers = await workerService.GetWorkersAsync();
-        DateTime today = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
 
-        if(workers != null)
-            selectedWorker = workers[0].Id;
-
-        if(selectedMonth == null)
+        // Select the first worker
+        if (workers != null)
         {
-            if(choreMonths.Contains(today.AddDays(1-today.Day)))
+            selectedWorker = workers[0].Id;
+        }
+
+        // Select the current month of it exists, or the latest month if not
+        if (choreMonths != null)
+        {
+            DateTime today = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
+            if (choreMonths.Contains(today))
             {
-                selectedMonth = today.AddDays(1 - today.Day).ToShortDateString();
+                selectedMonth = today.ToShortDateString();
             }
             else
             {
-                selectedMonth = choreMonths.First().ToShortDateString();
+                selectedMonth = choreMonths[0].ToShortDateString();
             }
         }
 
-        choreGetter();
+        UpdateChores();
     }
-    private async void choreGetter()
+    private async void UpdateChores()
     {
-        chores = await choreService.GetChoresForMonth(selectedWorker, DateTime.Parse(selectedMonth));
+        this.selectedMonth = this.selectedMonth == null ? string.Empty : this.selectedMonth;
+        this.selectedWorker = this.selectedWorker == null ? string.Empty : this.selectedWorker;
+
+        DateTime selectedMonth = DateTime.Parse(this.selectedMonth);
+
+        chores = await choreService.GetChoresAsync(selectedMonth.Year, selectedMonth.Month, selectedWorker);
     }
+
+
 
 }

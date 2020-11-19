@@ -14,26 +14,50 @@ a, .btn-link {
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+}
+.btn-fake {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
 }
 .btn-BLANK {
     color: #fff;
     background-color: #344E5C;
     border-color: #000;
+    min-width: 45px;
 }
 .btn-DONE {
     color: #fff;
     background-color: #4AB19D;
     border-color: #344E5C;
+    min-width: 45px;
 }
 .btn-PAUSED {
     color: #fff;
     background-color: #E17A47;
-    border-color: #EFC958;   
+    border-color: #EFC958;
+    min-width: 45px;
 }
 .btn-NOTDONE {
+    color: #fff;
+    background-color: #EF3D59;
+    border-color: #E17A47;
+    min-width: 45px;
+}
+.btn-locked {
+    color: #fff;
+    background-color: #EF3D59;
+    border-color: #E17A47;
+}
+.btn-unlocked {
+    color: #fff;
+    background-color: #4AB19D;
+    border-color: #344E5C;
+}
+.btn-delete {
     color: #fff;
     background-color: #EF3D59;
     border-color: #E17A47;
@@ -211,5 +235,16 @@ app {
     .sidebar .collapse {
         /* Never collapse the sidebar for wide screens */
         display: block;
+    }
+
+    .parent {
+        height: auto;
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .visual {
+        height: 100px;
+        width: 100%;
     }
 }

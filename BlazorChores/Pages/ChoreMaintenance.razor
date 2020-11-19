@@ -4,145 +4,260 @@
 @using ChoreWorkerLib.Models
 @inject ChoreService choreService
 @inject WorkerService workerService
+@inject IJSRuntime JsRuntime;
 
+<h2>Chore Maintenance</h2>
+<hr />
 <h3>Chore Maker</h3>
+
+
 <table>
-<tr><td>From Date:</td><td><input type="date" @onchange="SetFromDate"/></td></tr>
-<tr><td>To Date:</td><td><input type="date" @onchange="SetToDate" /></td></tr>
-<tr><td>Name:</td><td><input type="text" @onchange="SetChoreName"/></td></tr>
-<tr><td>Worker:</td><td>
-    <select @onchange="SetSelectedWorker">
+    <tr><td>From Date:</td><td><input type="date" @onchange="MakerSetFromDate" /></td></tr>
+    <tr><td>To Date:</td><td><input type="date" @onchange="MakerSetToDate" /></td></tr>
+    <tr><td>Make a chore with name:</td><td><input type="text" @onchange="MakerSetChoreName" /></td></tr>
+    <tr>
+        <td>Assigned to worker:</td>
+        <td>
+            @if (workers != null)
+            {
+                <select @onchange="MakerSetSelectedWorker">
+                    @foreach (var worker in workers)
+                    {
+                        <option value="@worker.Id">@worker.Name</option>
+                    }
+                </select>
+            }
+        </td>
+    </tr>
+    <tr><td valign="top">And description:</td><td><textarea @onchange="MakerSetChoreDescription" /></td></tr>
+    <tr><td colspan="2"><button class="btn btn-BLANK" @onclick="MakeChores" disabled="@makerDisabledSubmit">Make Chores</button></td></tr>
+</table>
+<p>
+    <br />
+    @makerChoresMadeText
+</p>
+<hr />
+<h3>Chore Editor</h3>
+@if (workers != null)
+{
+    <select @onchange="EditorSetSelectedWorker">
         @foreach (var worker in workers)
         {
             <option value="@worker.Id">@worker.Name</option>
         }
     </select>
-</td></tr>
- <tr><td>Description:</td><td><input type="text" @onchange="SetChoreDescription" /></td></tr>
-    <tr><td colspan="2"><button @onclick="MakeChores" disabled="@DisabledSubmit">Make Chores</button></td></tr>
-</table>
+}
 
-<p>
-    From: @fromDate.Date.ToShortDateString() to @toDate.Date.ToShortDateString()<br />
-    Make chore called: @ChoreName for @workerService.GetWorkerById(selectedWorker).Name<br />
-    Description: @ChoreDescription
-</p>
-<p>
-    <select @onchange="SetSelectedMonth">
-        @foreach (var cm in choreMonths)
-        {
-            <option value="@cm.Date.ToShortDateString()">@cm.Date.Month - @cm.Date.Year</option>
-        }
-    </select><br />
-    There are <b>@choresCount</b> chores this month for the worker <b>@workerService.GetWorkerById(selectedWorker).Name</b><br />
-    The expected value of these chores are <b>@workerValue</b>. The calculated value is <b>@Decimal.Round(calculatedChoreValue)</b>.
-    <button @onclick="UpdateChoresValue">Update Value</button>
-</p>
-
-
-@code 
+@if (editorMonths != null)
 {
-
-    DateTime fromDate;
-    DateTime toDate;
-    private string ChoreName;
-    private string ChoreDescription;
-    private bool DisabledSubmit = true;
-    private string selectedWorker;
-    private string selectedMonth;
-    private Worker[] workers;
-    private Chore[] chores;
-    private DateTime[] choreMonths;
-    private int choresCount;
-    private decimal workerValue;
-    private decimal calculatedChoreValue;
-
-    private void SetFromDate(ChangeEventArgs e)
-    {
-        fromDate = DateTime.Parse(e.Value.ToString());
-        ValidateInput();
-    }
-    private void SetToDate(ChangeEventArgs e)
-    {
-        toDate = DateTime.Parse(e.Value.ToString());
-        ValidateInput();
-    }
-    private void SetChoreName(ChangeEventArgs e)
-    {
-        ChoreName = e.Value.ToString();
-    }
-    private void SetSelectedWorker(ChangeEventArgs e)
-    {
-        selectedWorker = e.Value.ToString();
-        workerValue = workerService.GetWorkerById(selectedWorker).MonthlyChoreValue;
-        choreGetter();
-    }
-    private void SetChoreDescription(ChangeEventArgs e)
-    {
-        ChoreDescription = e.Value.ToString();
-    }
-    private void UpdateChoresValue()
-    {
-        decimal eachChoreValue = workerValue / choresCount;
-        for (int i = 0; i < chores.Length; i++)
+    <select @onchange="EditorSetSelectedMonth">
+        @foreach (var em in editorMonths)
         {
-            chores[i].Value = eachChoreValue;
+            <option value="@em.Date.ToShortDateString()">@em.Date.ToString("Y")</option>
         }
-        choreService.SerializeChores();
-        GetChoresValue();
-    }
-    private void SetSelectedMonth(ChangeEventArgs e)
-    {
-        selectedMonth = e.Value.ToString();
-        choreGetter();
-        GetChoresValue();
-    }
-    private async void choreGetter()
-    {
+    </select>
+}
+@if (editorChores == null)
+{
+    <p>Loading..</p>
+}
+else
+{
+    <br />
+    <br />
+    <button class="btn btn-PAUSED" @onclick="() => choreService.SerializeChores()">Save Chores</button>
+    <button class="btn btn-PAUSED" @onclick="() => choreService.DeserializeChores()">Load Chores</button>
+    <button class="btn btn-PAUSED" @onclick="() => this.EditorUpdateChores()">Refresh</button>
+    <button class="btn btn-NOTDONE" @onclick="() => this.LockAll()">Lock All</button>
+    <button class="btn btn-DONE" @onclick="() => this.UnlockAll()">Unlock All</button>
+    <br />
+    <br />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>State</th>
+                <th>Last Modified</th>
+                <th>Completed</th>
+                <th>Locked</th>
+                <th>Delete?</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Chore chore in editorChores)
+            {
+                <tr class="tr-one">
+                    <td>@chore.Date.ToShortDateString()</td>
+                    <td>@chore.Name</td>
+                    <td>@chore.Description</td>
+                    <td><button class="btn btn-@chore.State" @onclick="chore.CycleState">@chore.State</button></td>
+                    <td>@chore.LastModified</td>
+                    <td>@chore.Completed</td>
+                    @if (chore.Locked)
+                    {
+                        <td><button class="btn btn-locked" @onclick="chore.ToggleLock"><span class="oi oi-lock-locked" /></button></td>
+                    }
+                    else
+                    {
+                        <td><button class="btn btn-unlocked" @onclick="chore.ToggleLock"><span class="oi oi-lock-unlocked" /></button></td>
+                    }
+                    <td><button class="btn btn-delete" @onclick="() => this.Delete(chore)" disabled="@chore.Locked">Delete</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <hr />
+}
 
-        chores = await choreService.GetChoresForMonth(selectedWorker, DateTime.Parse(selectedMonth));
-        choresCount = chores.Length;
-    }
+@code
+{
+    // Common
+    private Worker[]? workers;
+
     private void ValidateInput()
     {
-        if (fromDate.Date <= toDate.Date)
-            DisabledSubmit = false;
-        else
-            DisabledSubmit = true;
-    }
-    private decimal GetChoresValue()
-    {
-        calculatedChoreValue = 0;
-        if (chores != null)
+        if (this.makerChoreName == null || this.makerChoreDescription == null || this.makerSelectedWorker == null)
         {
-
-            for (int i = 0; i < chores.Length; i++)
-            {
-                if (chores[i].Value != 0m)
-                {
-                    calculatedChoreValue = chores.Length * (decimal)chores[i].Value;
-                    break;
-                }
-            }
+            makerDisabledSubmit = true;
+            return;
         }
-        return calculatedChoreValue;
+        if (makerFromDate > makerToDate)
+        {
+            makerDisabledSubmit = true;
+            return;
+        }
+        makerDisabledSubmit = false;
     }
+
 
     protected override async Task OnInitializedAsync()
     {
-        workers = await workerService.GetWorkersAsync();
-        if (workers != null)
-        {
-            selectedWorker = workers[0].Id;
-            workerValue = workerService.GetWorkerById(selectedWorker).MonthlyChoreValue;
-        }
-        // get the chore months
-        choreMonths = choreService.GetMonths();
-        GetChoresValue();
+        this.workers = await this.workerService.GetWorkersAsync();
+        this.editorMonths = await this.choreService.GetMonths();
+
+        // Select the first worker and the first month
+        this.makerSelectedWorker = workers[0].Id;
+        this.editorSelectedWorker = workers[0].Id;
+        this.editorSelectedMonth = editorMonths[0].Date.ToShortDateString();
+
+        this.EditorUpdateChores();
     }
-    private void MakeChores()
+
+    // Chore maker
+    private DateTime makerFromDate;
+    private DateTime makerToDate;
+    private string? makerChoreName;
+    private string? makerChoreDescription;
+    private bool makerDisabledSubmit = true;
+    private string? makerSelectedWorker;
+    private string makerChoresMadeText = @"Fill in the details to make chores.";
+
+    private void MakerSetFromDate(ChangeEventArgs e)
     {
-        choreService.MakeChores(fromDate, toDate, ChoreName, ChoreDescription, selectedWorker);
+        string? date = e.Value.ToString();
+        date = date == null ? string.Empty : date;
+        makerFromDate = DateTime.Parse(date);
+        ValidateInput();
+    }
+
+    private void MakerSetToDate(ChangeEventArgs e)
+    {
+        string? date = e.Value.ToString();
+        date = date == null ? string.Empty : date;
+        makerToDate = DateTime.Parse(date);
+
+        ValidateInput();
+    }
+
+    private void MakerSetChoreName(ChangeEventArgs e)
+    {
+        makerChoreName = e.Value.ToString();
+        ValidateInput();
+    }
+
+    private void MakerSetSelectedWorker(ChangeEventArgs e)
+    {
+        makerSelectedWorker = e.Value.ToString();
+        ValidateInput();
+    }
+
+    private void MakerSetChoreDescription(ChangeEventArgs e)
+    {
+        makerChoreDescription = e.Value.ToString();
+        ValidateInput();
+    }
+
+    private async void MakeChores()
+    {
+        if (makerChoreName == null || makerChoreDescription == null || makerSelectedWorker == null)
+        {
+            return;
+        }
+        makerChoresMadeText = "Made " + choreService.MakeChores(makerFromDate, makerToDate, makerChoreName, makerChoreDescription, makerSelectedWorker) + " chores.";
+        this.editorMonths = await this.choreService.GetMonths();
+        EditorUpdateChores();
+    }
+
+    // Chore Editor
+    private string? editorSelectedWorker;
+    private DateTime[]? editorMonths;
+    private string? editorSelectedMonth;
+    private Chore[]? editorChores;
+
+    private void EditorSetSelectedWorker(ChangeEventArgs e)
+    {
+        editorSelectedWorker = e.Value.ToString();
+        this.EditorUpdateChores();
+    }
+
+    private void EditorSetSelectedMonth(ChangeEventArgs e)
+    {
+        editorSelectedMonth = e.Value.ToString();
+        this.EditorUpdateChores();
+    }
+
+    private async void EditorUpdateChores()
+    {
+
+        editorSelectedMonth = editorSelectedMonth == null ? string.Empty : editorSelectedMonth;
+        editorSelectedWorker = editorSelectedWorker == null ? string.Empty : editorSelectedWorker;
+        editorChores = await choreService.GetChoresAsync(DateTime.Parse(editorSelectedMonth).Year, DateTime.Parse(editorSelectedMonth).Month, editorSelectedWorker);
+    }
+
+    private async Task Delete(Chore chore)
+    {
+        if (!await JsRuntime.InvokeAsync<bool>("confirm", $"Are you sure you want to delete this chore?"))
+        {
+            return;
+        }
+        choreService.DeleteChore(chore);
+        this.EditorUpdateChores();
+    }
+
+    private void LockAll()
+    {
+        if (this.editorChores != null)
+        {
+            foreach (Chore chore in editorChores)
+            {
+                chore.Lock();
+            }
+        }
+        this.EditorUpdateChores();
+    }
+
+    private void UnlockAll()
+    {
+        if (this.editorChores != null)
+        {
+            foreach (Chore chore in editorChores)
+            {
+                chore.Unlock();
+            }
+        }
+        this.EditorUpdateChores();
     }
 }
 

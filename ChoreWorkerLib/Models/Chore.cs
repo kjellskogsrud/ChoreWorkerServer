@@ -35,7 +35,6 @@ namespace ChoreWorkerLib.Models
             DateTime? completed,
             string? worker,
             ChoreState state,
-            decimal? value,
             bool locked)
         {
             this.Id = id;
@@ -50,7 +49,7 @@ namespace ChoreWorkerLib.Models
             }
 
             this.Worker = worker;
-            this.Value = value;
+            this.State = state;
             this.Locked = locked;
         }
 
@@ -132,11 +131,6 @@ namespace ChoreWorkerLib.Models
         public ChoreState State { get; private set; } = ChoreState.BLANK;
 
         /// <summary>
-        /// Gets or sets the money value of the chore.
-        /// </summary>
-        public decimal? Value { get; set; }
-
-        /// <summary>
         /// Gets a value indicating whether the chore is locked.
         /// </summary>
         public bool Locked { get; private set; }
@@ -181,6 +175,14 @@ namespace ChoreWorkerLib.Models
         {
             this.Locked = false;
             this.SetLastModifiedNow();
+        }
+
+        /// <summary>
+        /// Toggle the Lock status.
+        /// </summary>
+        public void ToggleLock()
+        {
+            this.Locked = !this.Locked;
         }
 
         /// <summary>

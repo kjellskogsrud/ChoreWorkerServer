@@ -1,12 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+// <copyright file="Startup.cs" company="Kjell Skogsrud">
+// Copyright (c) Kjell Skogsrud. BSD 3-Clause License
+// </copyright>
+
 using ChoreWorkerLib.Services;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -34,7 +32,7 @@ namespace BlazorChores
 
         /// <summary>
         ///  This method gets called by the runtime. Use this method to add services to the container.
-        ///  For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+        ///  For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940.
         /// </summary>
         /// <param name="services"><see cref="IServiceCollection"/>.</param>
         public void ConfigureServices(IServiceCollection services)
@@ -64,9 +62,8 @@ namespace BlazorChores
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>

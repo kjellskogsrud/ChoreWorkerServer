@@ -5,7 +5,7 @@
 @inject ChoreService choreService
 @inject WorkerService workerService
 
-<h1>Chores by Worker and Week</h1>
+<h1>Week View</h1>
 
 @if (chores == null)
 {
@@ -13,156 +13,165 @@
 }
 else
 {
-    <select @onchange="SetSelectedWorker">
-        @foreach (var worker in workers)
-        {
-            <option value="@worker.Id">@worker.Name</option>
-        }
-    </select>
-    <select @onchange="SetSelectedMonday">
-        @foreach(var dw in MondaysAndWeeks)
-        {
-            bool selected = false;
-            if(dw.Key.Date == selectedDay.Date) { selected = true; }
-        <option value="@dw.Key.ToShortDateString()" selected="selected">Week @dw.Value (@dw.Key.Date.ToShortDateString()- @dw.Key.Date.AddDays(6).Date.ToShortDateString())</option>
-        }
-    </select>
-    <table cellpadding="1" cellspacing="1">
-        <tr>
-            <td align="center" width="14%"><b>M</b></td>
-            <td align="center" width="14%"><b>T</b></td>
-            <td align="center" width="14%"><b>W</b></td>
-            <td align="center" width="14%"><b>T</b></td>
-            <td align="center" width="14%"><b>F</b></td>
-            <td align="center" width="14%"><b>S</b></td>
-            <td align="center" width="14%"><b>S</b></td>
-        </tr>
-        @foreach (ChoreRow cr in choreRows)
-        {
+    if (workers != null)
+    {
+        <select @onchange="SetSelectedWorker">
+            @foreach (var worker in workers)
+            {
+                <option value="@worker.Id">@worker.Name</option>
+            }
+        </select>
+    }
+    if (choreWeeks != null)
+    {
+        <select @onchange="SetSelectedWeek">
+            @foreach (var choreWeek in choreWeeks)
+            {
+                if (choreWeek.Date.ToShortDateString() == selectedWeek)
+                {
+                    <option value="@choreWeek.Date.ToShortDateString()" selected>@choreWeek.ToString("dd.MM") - @choreWeek.AddDays(6).ToString("dd.MM")</option>
+                }
+                else
+                {
+                    <option value="@choreWeek.Date.ToShortDateString()">@choreWeek.ToString("dd.MM") - @choreWeek.AddDays(6).ToString("dd.MM")</option>
+                }
+            }
+        </select>
+    }
+    <table class="table">
+        <thead>
             <tr>
-                <td width="100%" colspan="7">@cr.Name</td>
+                <th>Chore</th>
+                <th>M</th>
+                <th>T</th>
+                <th>O</th>
+                <th>T</th>
+                <th>F</th>
+                <th>S</th>
+                <th>S</th>
             </tr>
-            <tr>
-                <td align="center" width="14%">
-                    @if (cr.WeekChores[1] != null)
-                    {<button class="btn btn-@cr.WeekChores[1].State" @onclick="cr.WeekChores[1].CycleState">@cr.WeekChores[1].State.ToString().ToCharArray()[0]</button>}
-                </td>
-                <td align="center" width="14%">
-                    @if (cr.WeekChores[2] != null)
-                    {<button class="btn btn-@cr.WeekChores[2].State" @onclick="cr.WeekChores[2].CycleState">@cr.WeekChores[2].State.ToString().ToCharArray()[0]</button>}
-                </td>
-                <td align="center" width="14%">
-                    @if (cr.WeekChores[3] != null)
-                    {<button class="btn btn-@cr.WeekChores[3].State" @onclick="cr.WeekChores[3].CycleState">@cr.WeekChores[3].State.ToString().ToCharArray()[0]</button>}
-                </td>
-                <td align="center" width="14%">
-                    @if (cr.WeekChores[4] != null)
-                    {<button class="btn btn-@cr.WeekChores[4].State" @onclick="cr.WeekChores[4].CycleState">@cr.WeekChores[4].State.ToString().ToCharArray()[0]</button>}
-                </td>
-                <td align="center" width="14%">
-                    @if (cr.WeekChores[5] != null)
-                    {<button class="btn btn-@cr.WeekChores[5].State" @onclick="cr.WeekChores[5].CycleState">@cr.WeekChores[5].State.ToString().ToCharArray()[0]</button>}
-                </td>
-                <td align="center" width="14%">
-                    @if (cr.WeekChores[6] != null)
-                    {<button class="btn btn-@cr.WeekChores[6].State" @onclick="cr.WeekChores[6].CycleState">@cr.WeekChores[6].State.ToString().ToCharArray()[0]</button>}
-                </td>
-                <td align="center" width="14%">
-                    @if (cr.WeekChores[0] != null)
-                    {<button class="btn btn-@cr.WeekChores[0].State" @onclick="cr.WeekChores[0].CycleState">@cr.WeekChores[0].State.ToString().ToCharArray()[0]</button>}
-                </td>
-            </tr>
-        }
+        </thead>
+        <tbody>
+            @foreach (string choreName in choreNames)
+            {
+                List<Chore> sameName = chores.Where(c => c.Name == choreName).Select(c => c).AsEnumerable().ToList();
+
+                selectedWeek = selectedWeek == null ? string.Empty : selectedWeek;
+
+                DateTime firstDay = DateTime.Parse(selectedWeek);
+                <tr class="tr-one">
+                    <td>@choreName</td>
+                    @for (int i = 0; i < 7; i++)
+                    {
+                        Chore thisChore = sameName.Where(c => c.Date == firstDay.AddDays(i)).FirstOrDefault();
+                        if (thisChore == null)
+                        {
+                            <td><button class="btn btn-fake" disabled>@firstDay.AddDays(i).Day</button></td>
+                        }
+                        else
+                        {
+                            <td><button class="btn btn-@thisChore.State" disabled="@thisChore.Locked" @onclick="@thisChore.CycleState">@thisChore.Date.Day</button></td>
+                        }
+                    }
+                </tr>
+            }
+        </tbody>
     </table>
+    <p><b>What do the colors mean?</b></p>
+    <button class="btn btn-BLANK">BLANK</button>
+    <button class="btn btn-DONE">DONE</button>
+    <button class="btn btn-PAUSED">PAUSED</button>
+    <button class="btn btn-NOTDONE">NOTDONE</button>
+    <p>
+        <b>The button does not work?</b><br />
+        If a button is slight lighter and does not work, that means that this chore is locked and can no longer be changed.
+    </p>
+    
+
 }
 
 @code {
-    private Chore[] chores;
-    private Worker[] workers;
-    private string selectedWorker;
-    private DateTime today;
-    private DateTime Monday;
-    private DateTime selectedDay;
-    private List<ChoreRow> choreRows = new List<ChoreRow>();
-    private Dictionary<DateTime, int> MondaysAndWeeks;
+    private Chore[]? chores;
+
+    private Worker[]? workers;
+
+    private string? selectedWorker;
+
+    private string? selectedWeek;
+
+    private DateTime[]? choreWeeks;
+
+    private List<string> choreNames = new List<string>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Get all the chore weeks
+        // actually a list of all mondays in weeks that have chores.
+        choreWeeks = await choreService.GetWeeks();
+
+        // Get all the worker
+        workers = await workerService.GetWorkersAsync();
+
+        // Select the first worker
+        if (workers != null)
+        {
+            selectedWorker = workers[0].Id;
+        }
+
+        // Select the current week if it exists, or the latest week if not
+        if (choreWeeks != null)
+        {
+            DateTime latestMonday = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day).AddDays(0 - DateTime.Now.DayOfWeek + 1);
+            if (choreWeeks.Contains(latestMonday))
+            {
+                selectedWeek = latestMonday.ToShortDateString();
+            }
+            else
+            {
+                selectedWeek = choreWeeks[0].ToShortDateString();
+            }
+        }
+
+        await UpdateChores();
+    }
 
     private async void SetSelectedWorker(ChangeEventArgs e)
     {
         selectedWorker = e.Value.ToString();
-        await ChoreGetter();
-    }
-    private async void SetSelectedMonday(ChangeEventArgs e)
-    {
-        string selectedMonday = e.Value.ToString();
-        selectedDay = DateTime.Parse(selectedMonday);
-        await ChoreGetter();
+        await UpdateChores();
     }
 
-    private async Task Sort(string field)
+    private async void SetSelectedWeek(ChangeEventArgs e)
     {
-        choreService.SortChores(field);
-        await ChoreGetter();
-
+        selectedWeek = e.Value.ToString();
+        await UpdateChores();
     }
 
-    protected override async Task OnInitializedAsync()
+    private async Task UpdateChores()
     {
+        this.selectedWorker = this.selectedWorker == null ? string.Empty : this.selectedWorker;
+        this.selectedWeek = this.selectedWeek == null ? string.Empty : this.selectedWeek;
 
-        today = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
-        Monday = today.Date.AddDays(-(int)today.Date.DayOfWeek + 1);
-
-        workers = await workerService.GetWorkersAsync();
-        MondaysAndWeeks = choreService.GetMondaysAndWeeks();
-        if (workers != null)
-            selectedWorker = workers[0].Id;
-
-        if (!MondaysAndWeeks.ContainsKey(Monday))
-            selectedDay = MondaysAndWeeks.Keys.First();
-        else
-            selectedDay = Monday;
-
-        await ChoreGetter();
+        chores = await choreService.GetChoresAsync(DateTime.Parse(selectedWeek), 6, selectedWorker);
+        this.GetUniqueChoreNames();
     }
 
-    private async Task ChoreGetter()
+    private void GetUniqueChoreNames()
     {
-        chores = await choreService.GetChoresForSameWeek(selectedWorker, selectedDay);
-        WeekMaker();
-    }
-    private void WeekMaker()
-    {
-        choreRows.Clear();
-        // get a list of tasks
-        List<string> choreNames = new List<string>();
-        foreach (Chore c in chores)
+        if (chores != null)
         {
-            if (!choreNames.Contains(c.Name))
+            // Clear the list
+            choreNames.Clear();
+
+            foreach (Chore chore in chores)
             {
-                choreNames.Add(c.Name);
-                choreRows.Add(new ChoreRow() { Name = c.Name });
-            }
-        }
-        foreach (ChoreRow cr in choreRows)
-        {
-            for (int i = 0; i < cr.WeekChores.Length; i++)
-            {
-                foreach (Chore c in chores)
+                if (!choreNames.Contains(chore.Name))
                 {
-                    if (cr.Name == c.Name && c.Date.DayOfWeek == (DayOfWeek)i)
-                    {
-                        cr.WeekChores[i] = c;
-                    }
+                    choreNames.Add(chore.Name);
                 }
-
-
             }
+
         }
-
     }
 
-    class ChoreRow
-    {
-        public string Name;
-        public Chore[] WeekChores = new Chore[7];
-    }
 }

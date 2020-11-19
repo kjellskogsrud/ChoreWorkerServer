@@ -1,7 +1,162 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
+@using ChoreWorkerLib.Services
+@using ChoreWorkerLib.Models
+@inject ChoreService choreService
+@inject WorkerService workerService
 
-Welcome to your new app.
+<h1>This Months Overview</h1>
+@if (workers != null)
+{
+    <select @onchange="SetSelectedWorker">
+        @foreach (var worker in workers)
+        {
+            <option value="@worker.Id">@worker.Name</option>
+        }
+    </select>
+}
+@if (choreMonths != null)
+{
+    <select @onchange="SetSelectedMonth">
+        @foreach (var cm in choreMonths)
+        {
+            if (cm.Date.ToShortDateString() == selectedMonth)
+            {
+                <option value="@cm.Date.ToShortDateString()" selected>@cm.Date.ToString("Y")</option>
+            }
+            else
+            {
+                <option value="@cm.Date.ToShortDateString()">@cm.Date.ToString("Y")</option>
+            }
+        }
+    </select>
+}
+@if (chores == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    if (selectedWorkerObject != null)
+    {
+        <p>
+            The worker <b>@selectedWorkerObject.Name</b> could earn a total of kr <b>@GetPossibleEarnings()</b> this month.<br />
+            So far he/she has <b>@GetBlankChores() blanks, @GetDoneChores() done, @GetPausedChores() paused, and @GetNotDoneChores()</b> Not done chores.<br />
+            He/She has earned kr <b>@GetActuallEarning()</b> and has lost kr <b>@GetLossEarnings()</b>.           
+        </p>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+    }
+}
+
+@code
+{
+    private string? selectedWorker;
+    private Worker? selectedWorkerObject;
+    private string? selectedMonth;
+    private Worker[]? workers;
+    private DateTime[]? choreMonths;
+    private Chore[]? chores;
+
+    private void SetSelectedWorker(ChangeEventArgs e)
+    {
+        selectedWorker = e.Value.ToString();
+        selectedWorkerObject = workers.Where(w => w.Id == selectedWorker).FirstOrDefault();
+        UpdateChores();
+    }
+    private void SetSelectedMonth(ChangeEventArgs e)
+    {
+        selectedMonth = e.Value.ToString();
+        UpdateChores();
+    }
+    private async void UpdateChores()
+    {
+        this.selectedMonth = this.selectedMonth == null ? string.Empty : this.selectedMonth;
+        this.selectedWorker = this.selectedWorker == null ? string.Empty : this.selectedWorker;
+
+        DateTime selectedMonth = DateTime.Parse(this.selectedMonth);
+
+        chores = await choreService.GetChoresAsync(selectedMonth.Year, selectedMonth.Month, selectedWorker);
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        // Get the chore months
+        choreMonths = await choreService.GetMonths();
+        workers = await workerService.GetWorkersAsync();
+
+        // Select the first worker
+        if (workers != null)
+        {
+            selectedWorker = workers[0].Id;
+            selectedWorkerObject = workers[0];
+        }
+
+        // Select the current month of it exists, or the latest month if not
+        if (choreMonths != null)
+        {
+            DateTime today = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
+            if (choreMonths.Contains(today))
+            {
+                selectedMonth = today.ToShortDateString();
+            }
+            else
+            {
+                selectedMonth = choreMonths[0].ToShortDateString();
+            }
+        }
+
+        this.UpdateChores();
+    }
+
+    private decimal GetPossibleEarnings()
+    {
+        if (selectedWorkerObject != null)
+        {
+            int allChores = this.chores.Count();
+            int validChores = this.chores.Count() - GetNotDoneChores();
+
+            decimal choresValue = selectedWorkerObject.MonthlyChoreValue / allChores;
+
+            return decimal.Round(validChores * choresValue,2);
+        }
+        return 0;
+    }
+    private decimal GetActuallEarning()
+    {
+        if (selectedWorkerObject != null)
+        {
+            int allChores = this.chores.Count();
+            int validChores = GetDoneChores() + GetPausedChores();
+
+            decimal choresValue = selectedWorkerObject.MonthlyChoreValue / allChores;
+
+            return decimal.Round(validChores * choresValue,2);
+        }
+        return 0;
+    }
+    private int GetBlankChores()
+    {
+        return this.chores.Where(c => c.State == Chore.ChoreState.BLANK).Select(c => c).AsEnumerable().ToList().Count();
+    }
+    private int GetDoneChores()
+    {
+        return this.chores.Where(c => c.State == Chore.ChoreState.DONE).Select(c => c).AsEnumerable().ToList().Count();
+    }
+    private int GetNotDoneChores()
+    {
+        return this.chores.Where(c => c.State == Chore.ChoreState.NOTDONE).Select(c => c).AsEnumerable().ToList().Count();
+    }
+    private int GetPausedChores()
+    {
+        return this.chores.Where(c => c.State == Chore.ChoreState.PAUSED).Select(c => c).AsEnumerable().ToList().Count();
+    }
+    private decimal GetLossEarnings()
+    {
+        return decimal.Round(selectedWorkerObject.MonthlyChoreValue - GetPossibleEarnings(),2);
+    }
+}
+
+
+
+
+
+

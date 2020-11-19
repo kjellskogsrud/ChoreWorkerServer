@@ -17,11 +17,10 @@
     },
     "BlazorChores": {
       "commandName": "Project",
-      "launchBrowser": true,
-      "applicationUrl": "https://localhost:5001;http://localhost:5000;https://192.168.10.10:5001",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "http://localhost:5000;http://192.168.10.10:5000"
     }
   }
 }
