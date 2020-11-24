@@ -20,7 +20,7 @@ namespace BlazorChores
         public static void Main(string[] args)
         {
             if (args != null)
-            { 
+            {
                 for (int i = 0; i < args.Length; i++)
                 {
                     System.Console.WriteLine(args[i]);
@@ -28,7 +28,10 @@ namespace BlazorChores
             }
 
             System.IO.Directory.SetCurrentDirectory(@"E:\Repos\ChoreWorkerServer\BlazorChores\bin\Debug\netcoreapp3.1");
+
+            #pragma warning disable CS8604 // Possible null reference argument.
             CreateHostBuilder(args).Build().Run();
+            #pragma warning restore CS8604 // Possible null reference argument.
         }
 
         /// <summary>

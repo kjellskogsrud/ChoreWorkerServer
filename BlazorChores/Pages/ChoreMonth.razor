@@ -13,25 +13,31 @@
 }
 else
 {
-    <select @onchange="SetSelectedWorker">
-        @foreach (var worker in workers)
-        {
-            <option value="@worker.Id">@worker.Name</option>
-        }
-    </select>
-    <select @onchange="SetSelectedMonth">
-        @foreach (var cm in choreMonths)
-        {
-            if (cm.Date.ToShortDateString() == selectedMonth)
+    if (workers != null)
+    {
+        <select @onchange="SetSelectedWorker">
+            @foreach (var worker in workers)
             {
-                <option value="@cm.Date.ToShortDateString()" selected>@cm.Date.ToString("Y")</option>
+                <option value="@worker.Id">@worker.Name</option>
             }
-            else
+        </select>
+    }
+    if (choreMonths != null)
+    {
+        <select @onchange="SetSelectedMonth">
+            @foreach (var cm in choreMonths)
             {
-                <option value="@cm.Date.ToShortDateString()">@cm.Date.ToString("Y")</option>
+                if (cm.Date.ToShortDateString() == selectedMonth)
+                {
+                    <option value="@cm.Date.ToShortDateString()" selected>@cm.Date.ToString("Y")</option>
+                }
+                else
+                {
+                    <option value="@cm.Date.ToShortDateString()">@cm.Date.ToString("Y")</option>
+                }
             }
-        }
-    </select>
+        </select>
+    }
     <table class="table">
         <thead>
             <tr>

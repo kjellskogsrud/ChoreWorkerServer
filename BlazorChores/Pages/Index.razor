@@ -151,7 +151,11 @@ else
     }
     private decimal GetLossEarnings()
     {
-        return decimal.Round(selectedWorkerObject.MonthlyChoreValue - GetPossibleEarnings(),2);
+        if (selectedWorkerObject != null)
+        {
+            return decimal.Round(selectedWorkerObject.MonthlyChoreValue - GetPossibleEarnings(), 2);
+        }
+        return 0;
     }
 }
 
